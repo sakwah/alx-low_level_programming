@@ -7,12 +7,8 @@
  */
 int main(void)
 {
-	long int i, j, k, n;
-	
-	j = 1;
-	
-	k = 2;
-	
+	long int i, j = 1, k = 2, n;
+
 	for (i = 1; i <= 50; ++i)
 	{
 		if (j != 20365011074)
@@ -27,6 +23,5 @@ int main(void)
 		j = k;
 		k = n;
 	}
-	
 	return (0);
 }
