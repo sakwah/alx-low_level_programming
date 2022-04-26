@@ -6,7 +6,7 @@
  * @s: string to be scanned
  * @accept: string containing the characters to match
  *
- * Return: pointer to the character in s that 
+ * Return: pointer to the character in s that
  * matches one of the characters in accept, else returns NULL
  */
 char *_strpbrk(char *s, char *accept)
